@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="image_view" type="disparity_view" name="disparity_view">
+    <param name="image" value="/camera/depth/disparity" />
+  </node>
+</launch>
